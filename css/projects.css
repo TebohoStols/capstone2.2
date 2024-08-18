@@ -1,0 +1,38 @@
+.gradient-background {
+    background: linear-gradient(300deg, #1c96fa, #e0f2fa, #216fff);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .prata-regular {
+    font-family: "Prata", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  p{
+    text-align: justify;
+  }
+
+  .teboho-span{
+    color: rgb(104, 174, 253);
+  
+  }
